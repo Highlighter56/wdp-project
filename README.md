@@ -1,4 +1,4 @@
-# wad-project
+# wpd-project
 This project is intended to showcase my web dev journey, and my current game dev skills. To minimizing scope for our class assignment, this project is intended to funtional as a single itch page. There will be a playable in browser game, which can send data to a db to be saved, formated, and displayed on a fun and interactable web page.
 
 ## What Purpose does it Solve?
