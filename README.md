@@ -27,3 +27,25 @@ To ensure I create a database that will meet the functional requirements of my s
 To better understand how the tables present in my ERD connect, I created a relations diagram to show specificly what attributes in each table connect to each other.
 
 ![Relations Diagram between User, Review, and Stats Tabel](/images/mvp-relations.png)
+
+## Database Implementation
+
+For this assignment, I used MySQL as the relational database system. The tables I created are:
+* USERS
+* REVIEWS
+* STATS
+
+**USERS** - Stores user information like username, email, and passowrd.
+
+**REVIEWS** - If the user rates the game or leaves a comment, that is stored here. Reviews are linked to UserIDs, so each user can only leave one review
+
+**STATS** - Game stats will be stored here. Time playing the game, levels completed, and total deaths are stored and defaulted to 0. This is linked to UserID, so each player has individual stats tracked.
+
+### SQL Tables
+
+![SQL Statement](/db/screenshots/show_tables.png)
+
+### Table Creation
+
+![SQL Statement](/db/screenshots/create_tables.png)
+

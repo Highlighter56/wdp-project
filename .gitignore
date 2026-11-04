@@ -6,3 +6,7 @@ node_nodules
 
 # .env
 .env
+
+/.cursor/
+
+db/in_progress/

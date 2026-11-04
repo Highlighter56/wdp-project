@@ -1,3 +1,14 @@
 {
-	"liveServer.settings.port": 5501
+	"liveServer.settings.port": 5501,
+	"sqlNotebook.connections": [
+		{
+			"name": "Local MySQL",
+			"driver": "mysql",
+			"host": "127.0.0.1",
+			"port": 3306,
+			"user": "root",
+			"database": "school_db"
+		}
+	],
+	"sqlNotebook.activeConnection": "Local MySQL"
 }
