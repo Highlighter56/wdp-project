@@ -20,13 +20,13 @@ Users will be able to register, log in, play the game in browser, leave a reivew
 
 To ensure I create a database that will meet the functional requirements of my system, I created an ERD that I will model the database off of.
 
-![ERD Containing User, Review, and Stats Tabels](/images/mvp-erd.png)
+![ERD Containing User, Review, and Stats Tabels](/public/images/mvp-erd.png)
 
 ## MVP Relations
 
 To better understand how the tables present in my ERD connect, I created a relations diagram to show specificly what attributes in each table connect to each other.
 
-![Relations Diagram between User, Review, and Stats Tabel](/images/mvp-relations.png)
+![Relations Diagram between User, Review, and Stats Tabel](/public/images/mvp-relations.png)
 
 ## Database Implementation
 
@@ -43,9 +43,9 @@ For this assignment, I used MySQL as the relational database system. The tables 
 
 ### SQL Tables
 
-![SQL Statement](/db/screenshots/show_tables.png)
+![SQL Statement](/public/images/show_tables.png)
 
 ### Table Creation
 
-![SQL Statement](/db/screenshots/create_tables.png)
+![SQL Statement](/public/images/create_tables.png)
 

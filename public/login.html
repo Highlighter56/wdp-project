@@ -3,8 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Register</title>
-	<link rel="stylesheet" href="/styles/style.css">
+	<title>Login</title>
+	<link rel="stylesheet" href="/public/styles/style.css">
+	<script src="/scripts/" defer></script>
+
 </head>
 <body>
 	
@@ -13,8 +15,8 @@
 			<!-- <h2>Nav Bar</h2> -->
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="#register.html">Register</a></li>
-				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="#login.html">Login</a></li>
 				<li><a href="comments.html">Comments</a></li>
 			</ul>
 		</nav>
@@ -23,24 +25,17 @@
 	<hr>
 
 	<main>
-		<h1>Register</h1>
-		<form class="grid-form" action="">
-			<label for="fname">First Name: </label>
-			<input type="text" id="fname">
-			<!-- <br> -->
-			<label for="lname">Last Name: </label>
-			<input type="text" id="lname">
-			<!-- <br> -->
-			<label for=""username>Username: </label>
+		<h1>Login</h1>
+		<form class="grid-form" id="loginForm">
+			<label for="username">Username: </label>
 			<input type="text" id="username">
 			<!-- <br> -->
 			<label for="pswd">Password: </label>
 			<input type="password" id="pswd">
 			<!-- <br> -->
-			<input type="submit" value="Register">
-			<br>
+			<input type="submit" value="Login">
+			<!-- <br> -->
 		</form>
-
 	</main>
 
 	<hr>
