@@ -1,0 +1,44 @@
+---
+description: >
+  Currently active SQL notebook cell. Use this to scope edits to the correct
+  cell block. Do NOT modify other cells unless explicitly asked.
+globs:
+  - "**/*.sql"
+  - "**/*.sqlnb"
+alwaysApply: false
+---
+
+# Active Cell Context
+
+**File:** `c:\Users\chris\OneDrive\Documents\a.School\Fall2026\WebDatabasePrograming\a.FinalProject\wdp-project\db\schema.sql`  
+**Cell:** 1 of 9  
+**Connection:** Local MySQL (mysql)  
+
+
+## Current Cell SQL (Cell 1)
+
+```sql
+show databases;
+```
+
+## Available Variables
+
+_None defined_
+
+## Surrounding Cells
+
+_No previous cell_
+
+**Next cell (2):**
+```sql
+CREATE DATABASE IF NOT EXISTS wdp_final_project;
+
+use wdp_final_project;
+```
+
+## Editing Rules
+
+- Only edit **Cell 1** unless explicitly asked to change another cell
+- Preserve `-- %%` cell boundary markers when editing
+- Preserve `-- @var` and `-- @connection` directives
+- Use `{{variableName}}` syntax to reference defined variables
