@@ -63,6 +63,18 @@ need the br element to space properly */
 	/* margin-right: 500px; */
 }
 
+.grid-form .fullRow {
+	grid-column: 1 / -1;
+}
+#error {
+	color: rgb(248, 123, 123);
+	font-weight: bold;
+	margin: 0;
+}
+#error:empty {
+	display: none;
+}
+
 /* ---General--- */
 h1, h2 {
 	text-align: center;

@@ -55,12 +55,18 @@ let login2 = (e) => {
 	// console.log(password)
 
 	// Creating an object literal from the form submission
-	const user = {
-		username: username,
-		password: password
+	if(validatePassword(password)) {
+		const user = {
+			username: username,
+			password: password
+		}
+	
+		console.log(user)
+	} else {
+		let errorMessage = "Password or Username is Incorrect"
+		let p = document.getElementById("error")
+		p.innerText = errorMessage
 	}
-
-	console.log(user)
 }
 
 /**
@@ -71,5 +77,6 @@ loginForm.addEventListener("submit", login2)
 
 
 function validatePassword(password) {
-	
+	// This is only temp
+	return true
 }
