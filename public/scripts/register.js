@@ -36,5 +36,5 @@ function register(e){
 
 function validatePassword(password) {
 	// This is only temp
-	return true
+	return false
 }
