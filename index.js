@@ -7,6 +7,8 @@ require("dotenv").config()
 app.use(express.json())
 
 const userRoutes = require("./server/routes/users");
+const reviewRoutes = require("./server/routes/reviews");
+const statRoutes = require("./server/routes/stats");
 
 // CORS middleware
 app.use(function(req, res, next) {
@@ -17,6 +19,8 @@ app.use(function(req, res, next) {
 });
 
 app.use("/users", userRoutes);
+app.use("/reviews", reviewRoutes);
+app.use("/stats", statRoutes);
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}!!`));

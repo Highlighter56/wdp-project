@@ -1,5 +1,6 @@
 
 
+// ==== Proper Function Using the Database ====
 // async function getAllUsers() {
 // 	let sql = `
 // 		SELECT * FROM Users;
@@ -8,10 +9,9 @@
 // 	return await confirm.query(sql)
 // }
 
-// module.exports = { getAllUsers }
 
 
-// Will eventualy be reaplaced by SQL
+// ==== Temp ====
 const users = [
 	{
 		username: "bobby",
@@ -31,4 +31,5 @@ function getAllUsers() {
 	return users;
 }
 
+// Needed to allow other fiels to access the method
 module.exports = {getAllUsers}
